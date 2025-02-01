@@ -74,7 +74,7 @@ Edit
 - Description: Fetches all FAQs. The response can be in multiple languages depending on the lang query parameter.
 
 ## Acknowledgments
-MongoDB for database management.
-Redis for in-memory data caching.
-Express for building the API.
-Postman for testing the API.
+- MongoDB for database management.
+- Redis for in-memory data caching.
+- Express for building the API.
+- Postman for testing the API.
