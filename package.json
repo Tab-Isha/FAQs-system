@@ -1,0 +1,37 @@
+{
+  "name": "faq-system",
+  "version": "1.0.0",
+  "description": "A FAQ Management System with multilingual support and caching.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha tests/**/*.test.js"
+  },
+  "keywords": [
+    "FAQ",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Redis",
+    "Multilingual"
+  ],
+  "author": "Tabish",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "google-translate-api-x": "^10.7.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.9.6",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
