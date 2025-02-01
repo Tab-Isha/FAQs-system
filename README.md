@@ -68,9 +68,9 @@ bash
 Copy
 Edit
 - http://localhost:3000/api/faqs
+- http://localhost:3000/api/faqs?lang=hi
 This will return a list of FAQs.
 
-- API Endpoints GET /api/faqs
 - Description: Fetches all FAQs. The response can be in multiple languages depending on the lang query parameter.
 - Query Parameters:
 lang (optional): Language code for the FAQ (default is en).
